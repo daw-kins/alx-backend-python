@@ -23,6 +23,8 @@ def stream_users_in_batches(batch_size):
             break
         yield batch
 
+    return;
+
     cursor.close()
     connection.close()
 
